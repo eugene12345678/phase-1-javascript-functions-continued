@@ -5,7 +5,7 @@ function saturdayFun(activity = 'roller-skate') {
     return `This Monday, I will ${activity}.`;
   }
   function wrapAdjective(wrapper = '*') {
-    return function(adjective = 'special') {
+    return function(adjective = '||') {
       return `You are ${wrapper}${adjective}${wrapper}!`;
     };
   }  
